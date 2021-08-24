@@ -1,0 +1,14 @@
+# name: cuda
+channels:
+  - nvidia
+  - anaconda
+  - conda-forge
+  # - hcc
+dependencies:
+  # - beakerx
+  - pip
+  - python=3.7
+  - ipython
+  - jupyter
+  - pip:
+    - -r file:requirements.txt

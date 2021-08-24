@@ -1,0 +1,1 @@
+This is a cutdown version of the build that repo2docker will do to a 'conda' environment. This allows for 'conda' buildpacks to be run with added sudo options where needed. Only currently supports python 3.7
